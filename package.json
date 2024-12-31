@@ -1,0 +1,48 @@
+{
+  "name": "fast-chart",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+  ],
+  "repository": "git@github.com:reindernijhoff/fast-chart.git",
+  "author": "Reinder Nijhoff <reinder@infi.nl>",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist/**/*",
+    "README.md"
+  ],
+  "main": "./dist/fast-chart.umd.cjs",
+  "module": "./dist/fast-chart.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./dist/fast-chart.js",
+      "require": "./dist/fast-chart.umd.cjs"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run clean && npm run build:ts",
+    "build:ts": "vite build",
+    "clean": "shx rm -rf dist node_modules/.cache/.tsbuildinfo",
+    "typecheck": "tsc --project tsconfig.json --noEmit --noUnusedLocals",
+    "prepare-publish": "tsx ./scripts/preparePublish.ts"
+  },
+  "devDependencies": {
+    "@types/shelljs": "^0.8.14",
+    "shelljs": "^0.8.5",
+    "shx": "^0.3.4",
+    "tsx": "^4.6.2",
+    "typescript": "^5.0.4",
+    "vite": "^6.0.1",
+    "vite-plugin-dts": "^4.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
