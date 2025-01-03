@@ -1,4 +1,4 @@
-export class FastCharts {
+export class Fastcharts {
   constructor() {
     console.log("FastChart constructor");
   }
