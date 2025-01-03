@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [
   ],
-  "repository": "git@github.com:reindernijhoff/fast-chart.git",
+  "repository": "git@github.com:reindernijhoff/fastcharts.git",
   "author": "Reinder Nijhoff <reinder@infi.nl>",
   "license": "MIT",
   "type": "module",
