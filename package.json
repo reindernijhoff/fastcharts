@@ -1,5 +1,5 @@
 {
-  "name": "fast-chart",
+  "name": "fastcharts",
   "version": "0.0.1",
   "description": "",
   "keywords": [
@@ -12,14 +12,14 @@
     "dist/**/*",
     "README.md"
   ],
-  "main": "./dist/fast-chart.umd.cjs",
-  "module": "./dist/fast-chart.js",
+  "main": "./dist/fastcharts.umd.cjs",
+  "module": "./dist/fastcharts.js",
   "types": "./index.d.ts",
   "exports": {
     ".": {
       "types": "./index.d.ts",
-      "import": "./dist/fast-chart.js",
-      "require": "./dist/fast-chart.umd.cjs"
+      "import": "./dist/fastcharts.js",
+      "require": "./dist/fastcharts.umd.cjs"
     }
   },
   "publishConfig": {

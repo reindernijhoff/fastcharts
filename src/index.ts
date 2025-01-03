@@ -1,2 +1,2 @@
-export * from "./lib/fast-chart.js";
+export * from "./lib/fast-charts.js";
 

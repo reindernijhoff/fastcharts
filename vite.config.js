@@ -12,7 +12,7 @@ export default defineConfig({
         target: 'esnext',
         lib: {
             assetsInlineLimit: 409600,
-            name: "fast-chart",
+            name: "fastcharts",
             entry: resolve(__dirname, 'src/index.ts'),
             declaration: true,
         }
