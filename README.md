@@ -1,1 +1,1 @@
-# fast-chart
+# Fastcharts
