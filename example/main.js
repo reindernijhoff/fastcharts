@@ -19,6 +19,7 @@ const example = new Fastcharts(container,
             labels: data.map(row => row.year),
             datasets: [
                 {
+                    type: 'line',
                     label: 'Acquisitions by year',
                     data: data.map(row => row.count)
                 }

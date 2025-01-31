@@ -20,4 +20,6 @@ body {
     border-radius: 4px;
     width: min(800px, 50vw);
     aspect-ratio: 16/9;
+    padding: 0;
+    overflow: hidden;
 }

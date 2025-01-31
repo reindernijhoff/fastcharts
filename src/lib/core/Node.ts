@@ -2,6 +2,7 @@ import type {Fastcharts} from "../fastcharts.js";
 
 export default class Node {
   public children: Node[] = [];
+  public mask: Rect | undefined;
 
   private _parent: Node | null = null;
   private _context: Fastcharts;
