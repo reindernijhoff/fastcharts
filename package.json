@@ -33,7 +33,7 @@
     "prepare-publish": "tsx ./scripts/preparePublish.ts"
   },
   "devDependencies": {
-    "@types/shelljs": "^0.8.14",
+    "@types/shelljs": "^0.10.0",
     "shelljs": "^0.10.0",
     "shx": "^0.3.4",
     "tsx": "^4.6.2",
